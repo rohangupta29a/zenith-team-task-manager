@@ -1,5 +1,13 @@
 {
+  "name": "zenith-team-task-manager",
+  "version": "1.0.0",
+  "description": "Zenith Team Task Manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "mongodb": "^7.2.0"
   }
 }
+
