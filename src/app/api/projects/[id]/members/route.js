@@ -35,7 +35,11 @@ export async function POST(request, { params }) {
     }
 
     // Check if already a member
-    if (project.teamMembers.includes(userId)) {
+    const isAlreadyMember = project.teamMembers.some(
+      (m) => m.toString() === userId
+    );
+
+    if (isAlreadyMember) {
       return NextResponse.json({ error: "User is already a team member" }, { status: 409 });
     }
 
