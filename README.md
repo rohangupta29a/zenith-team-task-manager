@@ -1,10 +1,22 @@
 # Zenith Team Task Manager
 
-A full-stack task management application for teams with role-based access, project management, and a premium dashboard UI. Built with Next.js App Router, MongoDB, and Tailwind CSS.
+A professional, glassmorphic task management application built with Next.js 16, React 19, and MongoDB.
+
+## 🚀 One-Click Deployment to Railway
+
+1. **Push your code** to GitHub.
+2. **Connect your repository** in the [Railway Dashboard](https://railway.app/).
+3. **Add Environment Variables**:
+   - `MONGODB_URI`: Your MongoDB connection string.
+   - `JWT_SECRET`: A secure random string for authentication.
+4. **Node Version**: The project is configured to use Node 20+ automatically via `package.json`.
 
 ## Features
-
-- **Authentication**: Secure JWT-based authentication using HTTP-only cookies.
+- 💎 **Glassmorphic UI**: Premium dark mode design.
+- 🔐 **Secure Auth**: JWT-based authentication with bcrypt hashing.
+- 📊 **Dashboard**: Real-time stats and task overview.
+- 📁 **Project Management**: Organize tasks into projects.
+- 👥 **Team Collaboration**: Assign tasks to team members.
 - **Role-Based Access**: 
   - Admin: Can create/delete projects, manage team members, manage all tasks, and change user roles.
   - Member: Can view assigned projects/tasks and update the status of their assigned tasks.
