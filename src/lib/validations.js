@@ -42,7 +42,7 @@ export const taskUpdateSchema = z.object({
 export function validate(schema, data) {
   const result = schema.safeParse(data);
   if (!result.success) {
-    const errors = result.error.errors.map((e) => e.message).join(", ");
+    const errors = (result.error.issues || []).map((e) => e.message).join(", ");
     return { error: errors, status: 400 };
   }
   return { data: result.data };
