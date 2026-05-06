@@ -1,4 +1,4 @@
-# Team Task Manager
+# Zenith Team Task Manager
 
 A full-stack task management application for teams with role-based access, project management, and a premium dashboard UI. Built with Next.js App Router, MongoDB, and Tailwind CSS.
 
@@ -12,7 +12,7 @@ A full-stack task management application for teams with role-based access, proje
 - **Task Management**: Track task status (Pending, In Progress, Completed), priority, and due dates. Automatic overdue status calculation.
 - **Premium UI**: Built with modern design principles, including dark mode support and responsive layout.
 
-## Tech Stack
+## Zenith
 
 - **Framework**: Next.js 15 (App Router)
 - **Database**: MongoDB + Mongoose
