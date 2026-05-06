@@ -58,7 +58,7 @@ A professional, glassmorphic task management application built with Next.js 16, 
    npm run dev
    ```
 
-5. Open [team-task-manager-three-omega.vercel.app](team-task-manager-three-omega.vercel.app) in your browser.
+5. Open [https://teamtaskmanagerzenith.netlify.app/login] in your browser.
 
 ### First Time Setup
 
